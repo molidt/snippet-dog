@@ -1,41 +1,41 @@
 {
   "for": {
     "prefix": "for",
-    "body": ["for (int ${1} = ${2:0}; ${1} < ${3:length}; ${1}++)", "{", "\t$0", "}\n"],
+    "body": ["for (int ${1} = ${2:0}; ${1} < ${3:length}; ${1}++) {", "\t$0", "}\n"],
     "description": "snippet for a for loop"
   },
 
   "do": {
     "prefix": "do",
-    "body": ["do", "{", "\t$0", "} while($1);\n"],
+    "body": ["do {", "\t$0", "} while($1);\n"],
     "description": "snippet for a do...while loop"
   },
 
   "while": {
     "prefix": "while",
-    "body": ["while ($1)", "{", "\t$0", "}\n"],
+    "body": ["while ($1) {", "\t$0", "}\n"],
     "description": "snippet for a while loop"
   },
 
   "if": {
     "prefix": "if",
-    "body": ["if ($1)", "{", "\t$0", "}"],
+    "body": ["if ($1) {", "\t$0", "}"],
     "description": "snippet for an if statement"
   },
 
   "else": {
     "prefix": "else",
-    "body": ["else", "{", "\t$0", "}\n"],
+    "body": ["else {", "\t$0", "}\n"],
     "description": "snippet for else"
   },
   "else if": {
     "prefix": "else if",
-    "body": ["else if ($1)", "{", "\t$0", "}"],
+    "body": ["else if ($1) {", "\t$0", "}"],
     "description": "snippet for else-if"
   },
   "enum": {
     "prefix": "enum",
-    "body": ["enum $1", "{", "\t$0", "};\n"],
+    "body": ["enum $1 {", "\t$0", "};\n"],
     "description": "snippet for an enum declaration"
   },
 
@@ -58,14 +58,13 @@
 
   "struct": {
     "prefix": "struct",
-    "body": ["struct $1", "{", "\t$0", "};"],
+    "body": ["struct $1 {", "\t$0", "};"],
     "description": "snippet for a struct declaration"
   },
   "switch": {
     "prefix": "switch",
     "body": [
-      "switch ($1)",
-      "{",
+      "switch ($1) {",
       "  case $2:",
       "\t$0",
       "\tbreak;",
@@ -86,7 +85,7 @@
 
   "union": {
     "prefix": "union",
-    "body": ["union $1", "{", "\t$0", "}\n;"],
+    "body": ["union $1 {", "\t$0", "}\n;"],
     "description": "snippet for a union declaration"
   },
 
@@ -104,8 +103,7 @@
   "main": {
     "prefix": ["main"],
     "body": [
-      "int\tmain(int argc, char **argv)",
-      "{",
+      "int\tmain(int argc, char **argv) {",
       "\t$0",
 
       "\n",
