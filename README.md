@@ -75,3 +75,7 @@ I recommend you turn off C/C++ Microsoft edition's snippet. Details can be find 
 Settings/Extensions/ C or C++/ C_CPP:Suggest Snippets
 
 ## Suggestions for improvement are welcome
+
+## Thanks
+
+Thanks for [C/C++ Snippets Pro](https://github.com/kkonghao/snippet-dog). If you like allman style more, you can try the C/C++ Snippets Pro extension.

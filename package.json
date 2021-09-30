@@ -30,6 +30,6 @@
     "type": "git",
     "url": "https://github.com/molidt/snippet-dog"
   },
-  "icon": "images/cpp.png",
+  "icon": "images/icon.png",
   "license": "Check in License in the root folder"
 }
