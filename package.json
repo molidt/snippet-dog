@@ -3,7 +3,7 @@
   "publisher": "Jianan",
   "displayName": "C/C++ K&R Snippets",
   "description": "Code snippets for C/C++ with K&R style",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^0.10.1"
   },
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/molidt/snippet-dog"
+    "url": "https://github.com/qinxiandiqi/snippet-dog"
   },
   "icon": "images/icon.png",
   "license": "Check in License in the root folder"
